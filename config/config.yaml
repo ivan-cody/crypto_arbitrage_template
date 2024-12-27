@@ -1,0 +1,9 @@
+mempool_url: "http://localhost:8080"
+dex_api: "https://api.dedust.io"
+min_amount: 0.01
+environment: "development"
+sentry_dsn: "https://your-sentry-dsn@sentry.io/123456"
+encryption_key: "0123456789abcdef0123456789abcdef" # 32-byte hex-encoded key for AES-256
+datadog:
+  api_key: "your_datadog_api_key"
+  app_key: "your_datadog_app_key"

@@ -1,0 +1,8 @@
+mempool_url: "http://localhost:8080"
+min_amount: 0.01
+environment: "development"
+sentry_dsn: "https://your-sentry-project@sentry.io/123456"
+encryption_key: "0123456789abcdef0123456789abcdef" # 32-byte hex-encoded key for AES-256
+datadog:
+  api_key: "your_datadog_api_key_here"
+  app_key: "your_datadog_app_key_here" 
